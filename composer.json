@@ -1,0 +1,30 @@
+{
+    "name": "clumsypixel/laravel-hasher",
+    "description": "An improved Hasher for Laravel 5",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ClumsyPixel",
+            "email": "clumsy@clumsypixel.net"
+        }
+    ],
+    "require": {
+		"php": ">=5.5.9",
+		"illuminate/contracts": "5.1.*|5.2.*|5.3.*",
+		"illuminate/support": "5.1.*|5.2.*|5.3.*",
+		"illuminate/encryption": "5.1.*|5.2.*|5.3.*",
+		"illuminate/hashing": "5.1.*|5.2.*|5.3.*",
+        "doctrine/dbal" : "^2.0"
+	},
+    "require-dev": {
+        "phpunit/phpunit": "^4.8|^5.0",
+        "graham-campbell/testbench": "^3.2"
+    },
+	"autoload": {
+        "psr-4": {
+            "ClumsyPixel\\Hasher\\": "src/"
+        }
+    },
+	"minimum-stability": "dev",
+    "prefer-stable": true
+}
